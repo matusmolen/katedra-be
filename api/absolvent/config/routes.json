@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/absolvents",
+      "handler": "absolvent.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/absolvents/count",
+      "handler": "absolvent.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/absolvents/:id",
+      "handler": "absolvent.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/absolvents",
+      "handler": "absolvent.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/absolvents/:id",
+      "handler": "absolvent.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/absolvents/:id",
+      "handler": "absolvent.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

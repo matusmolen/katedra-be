@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "name": "work",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "kontakt": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "cinnost": {
+      "type": "enumeration",
+      "enum": [
+        "staz",
+        "sutaz",
+        "praca"
+      ]
+    },
+    "oddelenie": {
+      "type": "enumeration",
+      "enum": [
+        "industrial",
+        "viz_komunikacia",
+        "nabytok"
+      ]
+    }
+  }
+}

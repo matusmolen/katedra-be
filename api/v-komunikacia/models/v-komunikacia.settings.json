@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "v_komunikacias",
+  "info": {
+    "name": "VKomunikacia",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ludia": {
+      "type": "richtext"
+    },
+    "popis": {
+      "type": "richtext"
+    },
+    "link1": {
+      "type": "string"
+    },
+    "miestnost2": {
+      "type": "string"
+    },
+    "link2": {
+      "type": "string"
+    },
+    "miestnost1": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "priestors",
+  "info": {
+    "name": "priestor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "miestnost1": {
+      "type": "string"
+    },
+    "link1": {
+      "type": "string"
+    },
+    "miestnost2": {
+      "type": "string"
+    },
+    "link2": {
+      "type": "string"
+    },
+    "popis": {
+      "type": "richtext"
+    },
+    "ludia": {
+      "type": "richtext"
+    }
+  }
+}

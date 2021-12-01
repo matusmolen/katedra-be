@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vystavas",
+      "handler": "vystava.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vystavas/count",
+      "handler": "vystava.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vystavas/:id",
+      "handler": "vystava.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vystavas",
+      "handler": "vystava.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vystavas/:id",
+      "handler": "vystava.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vystavas/:id",
+      "handler": "vystava.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

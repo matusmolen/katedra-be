@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "zber": {
+      "type": "string"
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "tlacidlo_odkaz": {
+      "type": "string"
+    }
+  }
+}

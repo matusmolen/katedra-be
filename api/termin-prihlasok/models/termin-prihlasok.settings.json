@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "termin_prihlasoks",
+  "info": {
+    "name": "terminPrihlasok"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bc": {
+      "type": "string"
+    },
+    "mgr": {
+      "type": "string"
+    },
+    "artD": {
+      "type": "string"
+    }
+  }
+}

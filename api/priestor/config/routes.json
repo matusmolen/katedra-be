@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/priestor",
+      "handler": "priestor.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/priestor",
+      "handler": "priestor.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/priestor",
+      "handler": "priestor.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

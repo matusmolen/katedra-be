@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/inovacia",
+      "handler": "inovacia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/inovacia",
+      "handler": "inovacia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/inovacia",
+      "handler": "inovacia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

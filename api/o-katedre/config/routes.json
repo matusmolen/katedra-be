@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/o-katedre",
+      "handler": "o-katedre.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/o-katedre",
+      "handler": "o-katedre.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/o-katedre",
+      "handler": "o-katedre.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

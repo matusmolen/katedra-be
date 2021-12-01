@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/termin-prihlasok",
+      "handler": "termin-prihlasok.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/termin-prihlasok",
+      "handler": "termin-prihlasok.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/termin-prihlasok",
+      "handler": "termin-prihlasok.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

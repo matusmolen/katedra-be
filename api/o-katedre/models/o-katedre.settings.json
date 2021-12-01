@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "o_katedres",
+  "info": {
+    "name": "oKatedre"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

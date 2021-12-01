@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/katalogies",
+      "handler": "katalogy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/katalogies/count",
+      "handler": "katalogy.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/katalogies/:id",
+      "handler": "katalogy.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/katalogies",
+      "handler": "katalogy.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/katalogies/:id",
+      "handler": "katalogy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/katalogies/:id",
+      "handler": "katalogy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

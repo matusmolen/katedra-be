@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "p_kurzs",
+  "info": {
+    "name": "pKurz",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "miesto": {
+      "type": "string"
+    },
+    "cas": {
+      "type": "string"
+    },
+    "cena": {
+      "type": "integer"
+    },
+    "od": {
+      "type": "string"
+    },
+    "do": {
+      "type": "string"
+    },
+    "foto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

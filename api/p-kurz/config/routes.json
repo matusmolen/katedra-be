@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/p-kurz",
+      "handler": "p-kurz.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/p-kurz",
+      "handler": "p-kurz.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/p-kurz",
+      "handler": "p-kurz.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

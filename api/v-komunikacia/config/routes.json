@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/v-komunikacia",
+      "handler": "v-komunikacia.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/v-komunikacia",
+      "handler": "v-komunikacia.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/v-komunikacia",
+      "handler": "v-komunikacia.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

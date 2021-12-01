@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/harmonogramy",
+      "handler": "harmonogramy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/harmonogramy",
+      "handler": "harmonogramy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/harmonogramy",
+      "handler": "harmonogramy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kontakt_pages",
+  "info": {
+    "name": "kontakt_page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "miestnost": {
+      "type": "string"
+    },
+    "link_miestnosti": {
+      "type": "string"
+    },
+    "zastupca": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "tel": {
+      "type": "string"
+    },
+    "zastupca2": {
+      "type": "string"
+    },
+    "miestnost2": {
+      "type": "string"
+    },
+    "link_miestnosti2": {
+      "type": "string"
+    },
+    "tel2": {
+      "type": "string"
+    },
+    "email2": {
+      "type": "email"
+    }
+  }
+}
