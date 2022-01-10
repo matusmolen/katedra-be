@@ -26,6 +26,10 @@
     },
     "title": {
       "type": "string"
+    },
+    "gallery_categories": {
+      "collection": "gallery-category",
+      "via": "gallery"
     }
   }
 }
