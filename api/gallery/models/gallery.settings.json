@@ -27,9 +27,8 @@
     "title": {
       "type": "string"
     },
-    "gallery_categories": {
-      "collection": "gallery-category",
-      "via": "gallery"
+    "gallery_category": {
+      "model": "gallery_category"
     },
     "text": {
       "type": "richtext"
