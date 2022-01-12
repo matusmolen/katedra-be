@@ -30,6 +30,15 @@
     "gallery_categories": {
       "collection": "gallery-category",
       "via": "gallery"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "string"
+    },
+    "grade": {
+      "type": "string"
     }
   }
 }
