@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "years",
+  "info": {
+    "name": "year"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "galleries": {
+      "collection": "gallery",
+      "via": "year"
+    }
+  }
+}

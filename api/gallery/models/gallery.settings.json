@@ -39,6 +39,10 @@
     },
     "grade": {
       "type": "string"
+    },
+    "year": {
+      "via": "galleries",
+      "model": "year"
     }
   }
 }
