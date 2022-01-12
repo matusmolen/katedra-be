@@ -14,9 +14,9 @@
     "title": {
       "type": "string"
     },
-    "galleries": {
-      "collection": "gallery",
-      "via": "gallery-category"
+    "gallery": {
+      "via": "gallery_categories",
+      "model": "gallery"
     }
   }
 }
