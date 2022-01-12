@@ -28,7 +28,7 @@
       "type": "string"
     },
     "gallery_category": {
-      "model": "gallery_category"
+      "model": "gallery-category"
     },
     "text": {
       "type": "richtext"

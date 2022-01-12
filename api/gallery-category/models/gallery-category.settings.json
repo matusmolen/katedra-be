@@ -16,7 +16,7 @@
     },
     "galleries": {
       "collection": "gallery",
-      "via": "gallery_category"
+      "via": "gallery-category"
     }
   }
 }
