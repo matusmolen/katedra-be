@@ -22,7 +22,7 @@
       "type": "string"
     },
     "zastupca": {
-      "type": "string"
+      "type": "text"
     },
     "email": {
       "type": "email"
