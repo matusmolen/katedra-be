@@ -12,7 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "zber": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
       "type": "string"
     },
     "video": {
